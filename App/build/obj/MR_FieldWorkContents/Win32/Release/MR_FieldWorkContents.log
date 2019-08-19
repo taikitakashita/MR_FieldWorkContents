@@ -1,0 +1,10 @@
+﻿  App.cpp
+  UnityGenerated.cpp
+d:\unityproject\mr_fieldworkcontents\app\mr_fieldworkcontents\app.cpp(26): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': 非推奨として設定されています
+  d:\unityproject\mr_fieldworkcontents\app\mr_fieldworkcontents\app.cpp(26): note: メッセージ: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  コード生成しています。
+  0 of 160 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  MR_FieldWorkContents.vcxproj -> D:\UnityProject\MR_FieldWorkContents\App\build\bin\Win32\Release\MR_FieldWorkContents.exe
