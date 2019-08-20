@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Assets">
-      <UniqueIdentifier>{7b15a700-1ffd-401c-9b8a-59f552d86b49}</UniqueIdentifier>
+      <UniqueIdentifier>{b2107cd3-1ff5-47d9-a9cb-8cbb400e348e}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="App.cpp" />
     <ClInclude Include="App.h" />

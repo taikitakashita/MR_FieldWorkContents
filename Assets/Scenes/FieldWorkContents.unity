@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 39353620}
   - component: {fileID: 39353619}
   - component: {fileID: 39353618}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1610,7 +1610,7 @@ GameObject:
   - component: {fileID: 325647439}
   - component: {fileID: 325647438}
   - component: {fileID: 325647437}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2316,7 +2316,7 @@ GameObject:
   - component: {fileID: 549378578}
   - component: {fileID: 549378577}
   - component: {fileID: 549378576}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2765,7 +2765,7 @@ GameObject:
   - component: {fileID: 722785382}
   - component: {fileID: 722785381}
   - component: {fileID: 722785380}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3030,7 +3030,7 @@ GameObject:
   - component: {fileID: 799695493}
   - component: {fileID: 799695492}
   - component: {fileID: 799695491}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7175,9 +7175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PhysicsLayer: 31
-  surfaceMaterial: {fileID: 0}
+  surfaceMaterial: {fileID: 2100000, guid: df172103f5fba4a4d8636aeca60cb0d7, type: 2}
   autoStartObserver: 1
-  drawVisualMeshes: 0
+  drawVisualMeshes: 1
   castShadows: 0
 --- !u!114 &1915694834
 MonoBehaviour:
