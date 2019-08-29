@@ -502,7 +502,7 @@ struct Dictionary_2_tD350AEA8AC2B301F07514C565500EDDFB0DD44CC;
 // System.Collections.Generic.Dictionary`2<System.UInt32,HoloToolkit.Unity.DebugPanelControllerInfo/ControllerState>
 struct Dictionary_2_t3C0CB57BEBFE56F3F932D11599DE26E52E839062;
 // System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>
-struct Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76;
+struct Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7;
 // System.Collections.Generic.HashSet`1<UnityEngine.GameObject>
 struct HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E;
 // System.Collections.Generic.IEnumerable`1<System.Object>
@@ -520,7 +520,7 @@ struct IEqualityComparer_1_t7B82AA0F8B96BAAA21E36DDF7A1FE4348BDDBE95;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
 struct IEqualityComparer_1_t1F07EAC22CC1D4F279164B144240E4718BD7E7A9;
 // System.Collections.Generic.IEqualityComparer`1<System.UInt32>
-struct IEqualityComparer_1_tA74C9F2C80A3BFA5A7BE17C48871B702741C8733;
+struct IEqualityComparer_1_t8D13638D3E8C85B2BF37618A54F8C19DD8DF2523;
 // System.Collections.Generic.IList`1<UnityEngine.Vector3>
 struct IList_1_t63FDFE2CD68FBDBE24281B47AF218565B840E875;
 // System.Collections.Generic.List`1<HoloToolkit.Unity.Collections.CollectionNode>
@@ -794,7 +794,7 @@ struct SemanticMeaningU5BU5D_t3FC0A968EA1C540EEA6B6F92368A430CA596D23D;
 // Windows.ApplicationModel.Core.CoreApplicationView
 struct CoreApplicationView_tCC5DE827AEBAAFC45AB04668BDDAB6C3F441A227;
 // Windows.Foundation.IAsyncOperation`1<System.Boolean>
-struct IAsyncOperation_1_t27E018F764B0C6E8EB0FA611CB25A52C1FD0FB18;
+struct IAsyncOperation_1_t87D18CE947A722F07F26224E8D04C1434D92BF6A;
 // Windows.UI.Core.CoreWindow
 struct CoreWindow_t1D9D274FF38A043460BF1A6CDBA5F30C4E05FD6D;
 // Windows.UI.Core.ICoreWindowStatic
@@ -1347,7 +1347,7 @@ struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 struct IApplicationView_t2E76379C3D309F7167D080342FE7E206409C4F14;
-struct IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper;
+struct IAsyncOperationCompletedHandler_1_t524FAC35C9FB3A97E0848A3A405A1B9387BF83A2_ComCallableWrapper;
 struct ICoreDispatcher_t6A29CDDC0B708B17368D9ADF2CCF4F6A82F2DCE6;
 struct ICoreWindow_t40A595D42A297F446C249A6BC54253F33D23E23A;
 struct ITypedEventHandler_2_t7A21C7BEB279000CD427B5831C399535653BF5D9_ComCallableWrapper;
@@ -1432,11 +1432,11 @@ struct NOVTABLE ICoreApplicationView6_t4287902BE36D741A32EC28686C5F0F42E1B679C1 
 	virtual il2cpp_hresult_t STDCALL ICoreApplicationView6_U24__Stripped0_get_DispatcherQueue_m738E52000FBF67189762FB5B17B5FF94A527BF5C() = 0;
 };
 // Windows.Foundation.IAsyncOperation`1<System.Boolean>
-struct NOVTABLE IAsyncOperation_1_t27E018F764B0C6E8EB0FA611CB25A52C1FD0FB18 : Il2CppIInspectable
+struct NOVTABLE IAsyncOperation_1_t87D18CE947A722F07F26224E8D04C1434D92BF6A : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mCD6E096799210DC80FFCA3C09D67B27800A90520(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper* ___handler0) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m07CAA5869A884FEC2A68E5C00C7DA01E4576826B(IAsyncOperationCompletedHandler_1_t60A0D16C078315F375831514827E7956934AFB66_ComCallableWrapper** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_put_Completed_mCD6E096799210DC80FFCA3C09D67B27800A90520(IAsyncOperationCompletedHandler_1_t524FAC35C9FB3A97E0848A3A405A1B9387BF83A2_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_get_Completed_m07CAA5869A884FEC2A68E5C00C7DA01E4576826B(IAsyncOperationCompletedHandler_1_t524FAC35C9FB3A97E0848A3A405A1B9387BF83A2_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncOperation_1_GetResults_mD43ABCF581D914A85D4B9445991877915DFF56DA(bool* comReturnValue) = 0;
 };
 // Windows.UI.Core.ICorePointerRedirector
@@ -4924,7 +4924,7 @@ struct  Enumerator_tBCBFC20244034419E1A2440EE74529AF4BF6B420
 {
 public:
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2_ValueCollection_Enumerator::dictionary
-	Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * ___dictionary_0;
+	Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2_ValueCollection_Enumerator::index
 	int32_t ___index_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2_ValueCollection_Enumerator::version
@@ -4934,9 +4934,9 @@ public:
 
 public:
 	inline static int32_t get_offset_of_dictionary_0() { return static_cast<int32_t>(offsetof(Enumerator_tBCBFC20244034419E1A2440EE74529AF4BF6B420, ___dictionary_0)); }
-	inline Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * get_dictionary_0() const { return ___dictionary_0; }
-	inline Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 ** get_address_of_dictionary_0() { return &___dictionary_0; }
-	inline void set_dictionary_0(Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * value)
+	inline Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * get_dictionary_0() const { return ___dictionary_0; }
+	inline Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 ** get_address_of_dictionary_0() { return &___dictionary_0; }
+	inline void set_dictionary_0(Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * value)
 	{
 		___dictionary_0 = value;
 		Il2CppCodeGenWriteBarrier((&___dictionary_0), value);
@@ -19598,7 +19598,7 @@ extern "C" IL2CPP_METHOD_ATTR void Queue_1__ctor_m57D20E9B6532A644845C835306D5BC
 // System.Void HoloToolkit.Unity.SingleInstance`1<System.Object>::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void SingleInstance_1__ctor_m35C10A08DA7CB37FF08C204AD323AEAEF8850B92_gshared (SingleInstance_1_tEEEA2C28C92BD1CDA0D0B75A6CBCF4E7773D0BC2 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2132C7E09E98C664B43169604A2C838472DC4C57_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m7A72E1813C14D0E707F0A81C100E6C5B49213421_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, const RuntimeMethod* method);
 // System.Void System.Action`1<UnityEngine.XR.WSA.Input.InteractionSourceDetectedEventArgs>::.ctor(System.Object,System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_m9F79B103C6451489BD2F5E83240A62E629C8C9F9_gshared (Action_1_t5FBB0CAB4D84AD4BEC640760EBC9B9D18AFDDEA0 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // System.Void System.Action`1<UnityEngine.XR.WSA.Input.InteractionSourceLostEventArgs>::.ctor(System.Object,System.IntPtr)
@@ -19608,15 +19608,15 @@ extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_m835199E46BB28AA171BBDEBDAB1B8
 // T HoloToolkit.Unity.SingleInstance`1<System.Object>::get_Instance()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * SingleInstance_1_get_Instance_mF064D3BF1307C37E7635A3C6249A3E2C4859FE67_gshared (const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::ContainsKey(!0)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m93EC95B6E113BF7A1AD4504EDB8B9991D8DABAC0_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m93EC95B6E113BF7A1AD4504EDB8B9991D8DABAC0_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Add(!0,!1)
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7F5F67863B4DA45FB04D1ABB199E68AAF461012A_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7F5F67863B4DA45FB04D1ABB199E68AAF461012A_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Remove(!0)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mE91B048168FFBF63795719698B994AD15AAE352A_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mE91B048168FFBF63795719698B994AD15AAE352A_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::TryGetValue(!0,!1&)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m78FF033B17E99F71B4BAD5200899D3B2CDFC5E7E_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m78FF033B17E99F71B4BAD5200899D3B2CDFC5E7E_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::get_Values()
-extern "C" IL2CPP_METHOD_ATTR ValueCollection_tB0D951D8825080125748D3B14160B1FD5796E4A0 * Dictionary_2_get_Values_mD051A1F1F7F3C085AD759EA9FE65B671B12F4B28_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR ValueCollection_tB0D951D8825080125748D3B14160B1FD5796E4A0 * Dictionary_2_get_Values_mD051A1F1F7F3C085AD759EA9FE65B671B12F4B28_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt32,System.Object>::GetEnumerator()
 extern "C" IL2CPP_METHOD_ATTR Enumerator_tBCBFC20244034419E1A2440EE74529AF4BF6B420  ValueCollection_GetEnumerator_mDFB1D7F5AD30C0605781A4588667B65D7ED31A2A_gshared (ValueCollection_tB0D951D8825080125748D3B14160B1FD5796E4A0 * __this, const RuntimeMethod* method);
 // !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.UInt32,System.Object>::get_Current()
@@ -21111,7 +21111,7 @@ inline void SingleInstance_1__ctor_mADC267FFD7BE869815BC44EF4C9E18EA0F3DD378 (Si
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,HoloToolkit.Unity.DebugPanelControllerInfo/ControllerState>::.ctor()
 inline void Dictionary_2__ctor_m2B39C04C7D9678C7FFB59A1A269BC5A1642D8711 (Dictionary_2_t3C0CB57BEBFE56F3F932D11599DE26E52E839062 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t3C0CB57BEBFE56F3F932D11599DE26E52E839062 *, const RuntimeMethod*))Dictionary_2__ctor_m2132C7E09E98C664B43169604A2C838472DC4C57_gshared)(__this, method);
+	((  void (*) (Dictionary_2_t3C0CB57BEBFE56F3F932D11599DE26E52E839062 *, const RuntimeMethod*))Dictionary_2__ctor_m7A72E1813C14D0E707F0A81C100E6C5B49213421_gshared)(__this, method);
 }
 // System.Void System.Action`1<UnityEngine.XR.WSA.Input.InteractionSourceDetectedEventArgs>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m9F79B103C6451489BD2F5E83240A62E629C8C9F9 (Action_1_t5FBB0CAB4D84AD4BEC640760EBC9B9D18AFDDEA0 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method)

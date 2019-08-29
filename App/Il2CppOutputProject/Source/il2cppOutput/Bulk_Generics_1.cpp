@@ -1086,13 +1086,13 @@ extern const uint32_t Action_1_BeginInvoke_mE9D6BB766D96DC842EB004A84D57C6B75625
 extern const uint32_t Action_1_BeginInvoke_mFCD1211234FCE9CE606B0D35230586D3B1A7C9B9_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m3653CBCBC6854C77866BC57B42B772832B2A2A0E_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m3755603DBF8BCA25B7BE0354E3C054FB455218F2_MetadataUsageId;
-extern const uint32_t Action_2_BeginInvoke_m4F9434B4D9C00487F3304FDB70D3303596AD3081_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m55CF28A83F2009E884736E28B50C5AA3CF1F0C4C_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m5CF1E5012E9A09806CEA0B6A4B81DC23E8FF4C46_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m6896AF87BCD908F449DE142BACD2A924D9C1869C_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m701B18451EA00B7A907C490C88AD8DA88992B8CC_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_m90CE2E30BF265027DA651AF5A3946F6E1C2404E7_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_mAF0E75B28638CBFF6EA9645130AD3839F30C2DD2_MetadataUsageId;
+extern const uint32_t Action_2_BeginInvoke_mB3D11239151B503A6D994F103426F3AB579ED639_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_mB8C1DDE632DAA0E4F81690DAFDC9B5B2B6DB810C_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_mC6A7F574262C601E4C40D29E2AB966B86DBFE20C_MetadataUsageId;
 extern const uint32_t Action_2_BeginInvoke_mE745294B64D4C8F1C81CF10E116BCFAE8210A204_MetadataUsageId;
@@ -30137,12 +30137,12 @@ extern "C" IL2CPP_METHOD_ATTR void Action_2_Invoke_m876D07286BCD4816A21B0B271318
 	}
 }
 // System.IAsyncResult System.Action`2<System.Boolean,System.Object>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Action_2_BeginInvoke_m4F9434B4D9C00487F3304FDB70D3303596AD3081_gshared (Action_2_t3780F2B81C7D781FF31EC17E37A6D4B6CACAF5DA * __this, bool ___arg10, RuntimeObject * ___arg21, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Action_2_BeginInvoke_mB3D11239151B503A6D994F103426F3AB579ED639_gshared (Action_2_t3780F2B81C7D781FF31EC17E37A6D4B6CACAF5DA * __this, bool ___arg10, RuntimeObject * ___arg21, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Action_2_BeginInvoke_m4F9434B4D9C00487F3304FDB70D3303596AD3081_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Action_2_BeginInvoke_mB3D11239151B503A6D994F103426F3AB579ED639_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[3] = {0};
@@ -30151,7 +30151,7 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* Action_2_BeginInvoke_m4F9434B4D9C00
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
 }
 // System.Void System.Action`2<System.Boolean,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" IL2CPP_METHOD_ATTR void Action_2_EndInvoke_mAFE67979FF5DB345AFA6B5CEEC790EB620C12E99_gshared (Action_2_t3780F2B81C7D781FF31EC17E37A6D4B6CACAF5DA * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+extern "C" IL2CPP_METHOD_ATTR void Action_2_EndInvoke_m29EE1D3C0FDA9963C3217B9905E236D250E41CE5_gshared (Action_2_t3780F2B81C7D781FF31EC17E37A6D4B6CACAF5DA * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }

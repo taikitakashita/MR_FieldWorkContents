@@ -31,7 +31,7 @@ public class MachineInformationFunctionRun : Singleton<MachineInformationFunctio
         Debug.Log("CallLoadFunctions Status Code: " + request.responseCode);
         Debug.Log("Load MachineInformation: " + Response);
         Debug.Log("CallLoadFunctions End");
-        Information1Management.Instance.SetMachineInformation(machineinformationentity);
+        MachineInformation1Management.Instance.SetMachineInformation(machineinformationentity);
     }
 }
 

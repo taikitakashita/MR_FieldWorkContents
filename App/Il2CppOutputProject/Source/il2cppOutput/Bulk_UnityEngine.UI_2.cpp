@@ -11175,7 +11175,7 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Resources_GetBuiltinResource_TisRu
 // System.Boolean System.Collections.Generic.List`1<System.Object>::Contains(!0)
 extern "C" IL2CPP_METHOD_ATTR bool List_1_Contains_mE08D561E86879A26245096C572A8593279383FDB_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<System.Object>::Find(System.Predicate`1<!0>)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * List_1_Find_mD3D8180CF4967CBDC17E86195A15B12975BA9FF7_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * List_1_Find_m94A7087C83ECAC7AB1F55201714D2A6D70BFF211_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * p0, const RuntimeMethod* method);
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared (Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
@@ -12627,7 +12627,7 @@ inline void Predicate_1__ctor_m632D4039C8474C4004D5765FA26175367C5DB545 (Predica
 // !0 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::Find(System.Predicate`1<!0>)
 inline Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * List_1_Find_mD6E569D2127AA84561E149518AF922268C0307E2 (List_1_t02218CE37FD9D09EE4EC464F0D43E9FD9DE0C581 * __this, Predicate_1_t2D2FE3EBD09F7A807E9C7EC5A28E252B7F1E8341 * p0, const RuntimeMethod* method)
 {
-	return ((  Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * (*) (List_1_t02218CE37FD9D09EE4EC464F0D43E9FD9DE0C581 *, Predicate_1_t2D2FE3EBD09F7A807E9C7EC5A28E252B7F1E8341 *, const RuntimeMethod*))List_1_Find_mD3D8180CF4967CBDC17E86195A15B12975BA9FF7_gshared)(__this, p0, method);
+	return ((  Toggle_t9ADD572046F831945ED0E48A01B50FEA1CA52106 * (*) (List_1_t02218CE37FD9D09EE4EC464F0D43E9FD9DE0C581 *, Predicate_1_t2D2FE3EBD09F7A807E9C7EC5A28E252B7F1E8341 *, const RuntimeMethod*))List_1_Find_m94A7087C83ECAC7AB1F55201714D2A6D70BFF211_gshared)(__this, p0, method);
 }
 // System.Void System.Func`2<UnityEngine.UI.Toggle,System.Boolean>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_m473A3D07B773AE058C77B263342CC5A9C20BC660 (Func_2_t1D8A83A768DC97BC0940C939C870AF7BC74C026E * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method)

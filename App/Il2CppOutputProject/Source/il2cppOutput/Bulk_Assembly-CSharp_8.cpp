@@ -509,7 +509,7 @@ struct Dictionary_2_t4DD8490EB900C82E89E3C456A8DA6A741801BDEF;
 // System.Collections.Generic.Dictionary`2<System.UInt32,HoloToolkit.Unity.InputModule.InteractionInputSource/SourceData>
 struct Dictionary_2_t9D011A8E5AFC7F733F2AF1A9153F56C52B63DA17;
 // System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>
-struct Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76;
+struct Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7;
 // System.Collections.Generic.HashSet`1/Slot<UnityEngine.GameObject>[]
 struct SlotU5BU5D_tEC1E3160C74097782B8872BBE9509CF20279D4EC;
 // System.Collections.Generic.HashSet`1<HoloToolkit.Unity.InputModule.Examples.Grabbables.BaseGrabbable>
@@ -525,7 +525,7 @@ struct IEnumerable_1_t65B145A41D9146B4A05725587A3FA51B462951E5;
 // System.Collections.Generic.IEqualityComparer`1<HoloToolkit.Unity.InputModule.KeyboardManager/KeyCodeEventPair>
 struct IEqualityComparer_1_tEF43AE0DC402E802B99F7A604E48DAC5B526A2D3;
 // System.Collections.Generic.IEqualityComparer`1<System.UInt32>
-struct IEqualityComparer_1_tA74C9F2C80A3BFA5A7BE17C48871B702741C8733;
+struct IEqualityComparer_1_t8D13638D3E8C85B2BF37618A54F8C19DD8DF2523;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.GameObject>
 struct IEqualityComparer_1_tA583C071DBB4FFE6844A462DAB596DB2A3F14D24;
 // System.Collections.Generic.List`1<HoloToolkit.Unity.InputModule.Examples.Grabbables.BaseGrabbable>
@@ -16424,11 +16424,11 @@ extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_m9F79B103C6451489BD2F5E83240A6
 // System.Void System.Action`1<UnityEngine.XR.WSA.Input.InteractionSourcePressedEventArgs>::.ctor(System.Object,System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_m194021835AB9180543709BF60890F4EBC6404665_gshared (Action_1_t5925C354A9C769D7F04E130EF166F2EDD1B8EE93 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Remove(!0)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mE91B048168FFBF63795719698B994AD15AAE352A_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_mE91B048168FFBF63795719698B994AD15AAE352A_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, const RuntimeMethod* method);
 // System.Void HoloToolkit.Unity.Singleton`1<System.Object>::AssertIsInitialized()
 extern "C" IL2CPP_METHOD_ATTR void Singleton_1_AssertIsInitialized_m389AB471F0B630BD60ED8B8494A95575509C4833_gshared (const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::TryGetValue(!0,!1&)
-extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m78FF033B17E99F71B4BAD5200899D3B2CDFC5E7E_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m78FF033B17E99F71B4BAD5200899D3B2CDFC5E7E_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
 // HoloToolkit.Unity.InputModule.SupportedInputInfo HoloToolkit.Unity.InputModule.InteractionInputSource::GetSupportFlag<UnityEngine.Vector3>(HoloToolkit.Unity.InputModule.InteractionInputSource/SourceCapability`1<TReading>,HoloToolkit.Unity.InputModule.SupportedInputInfo)
 extern "C" IL2CPP_METHOD_ATTR int32_t InteractionInputSource_GetSupportFlag_TisVector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_mACF9942EAC04FB81D49A68C58BD223A02550E97D_gshared (InteractionInputSource_t75B18EDA6588E0F97FD86E76187AA072DECDE96A * __this, SourceCapability_1_tDAFC1106F8748025C842949021096B8F8DD0447C  ___capability0, int32_t ___flagIfSupported1, const RuntimeMethod* method);
 // HoloToolkit.Unity.InputModule.SupportedInputInfo HoloToolkit.Unity.InputModule.InteractionInputSource::GetSupportFlag<UnityEngine.Quaternion>(HoloToolkit.Unity.InputModule.InteractionInputSource/SourceCapability`1<TReading>,HoloToolkit.Unity.InputModule.SupportedInputInfo)
@@ -16458,9 +16458,9 @@ extern "C" IL2CPP_METHOD_ATTR bool InteractionInputSource_TryGetReading_TisAxisB
 // System.Boolean HoloToolkit.Unity.InputModule.InteractionInputSource::TryGetReading<System.Boolean>(HoloToolkit.Unity.InputModule.InteractionInputSource/SourceCapability`1<TReading>,TReading&)
 extern "C" IL2CPP_METHOD_ATTR bool InteractionInputSource_TryGetReading_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_mD3D325A54C4CEF53F0F3C3BE7023F60C2A2C588A_gshared (InteractionInputSource_t75B18EDA6588E0F97FD86E76187AA072DECDE96A * __this, SourceCapability_1_t074FD54A748CD27F63AA542EA5856627E2D6FD0F  ___capability0, bool* ___reading1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Add(!0,!1)
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7F5F67863B4DA45FB04D1ABB199E68AAF461012A_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, uint32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7F5F67863B4DA45FB04D1ABB199E68AAF461012A_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m709047A382150ABEE7ABF8E7BC551B998B418C11_gshared (Dictionary_2_t4894C563A6AA83F02FB0CE34F490429DA010ED76 * __this, int32_t p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m709047A382150ABEE7ABF8E7BC551B998B418C11_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, int32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<HoloToolkit.Unity.InputModule.KeyboardManager/KeyCodeEventPair>::AddRange(System.Collections.Generic.IEnumerable`1<!0>)
 extern "C" IL2CPP_METHOD_ATTR void List_1_AddRange_mACB15E028138F31F1158A8E667696427437834E6_gshared (List_1_tF05C85244563FF9FCEAD207CD7B6D22EEDFAABD6 * __this, RuntimeObject* p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<HoloToolkit.Unity.InputModule.KeyboardManager/KeyCodeEventPair>::Clear()

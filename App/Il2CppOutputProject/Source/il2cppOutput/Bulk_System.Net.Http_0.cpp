@@ -16356,7 +16356,7 @@ extern "C" IL2CPP_METHOD_ATTR void Nullable_1__ctor_mD3154885E88D449C69AD9DEA6F9
 // System.Void System.Nullable`1<System.TimeSpan>::.ctor(!0)
 extern "C" IL2CPP_METHOD_ATTR void Nullable_1__ctor_m516D28AF4942F68EDD2EB04EB60C54B18EE182B5_gshared (Nullable_1_tAE17873A01A7B115BFE9B673C3101F3F5569359F * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  p0, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<System.Object>::Find(System.Predicate`1<!0>)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * List_1_Find_mD3D8180CF4967CBDC17E86195A15B12975BA9FF7_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * List_1_Find_m94A7087C83ECAC7AB1F55201714D2A6D70BFF211_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * p0, const RuntimeMethod* method);
 // System.Boolean System.Nullable`1<System.Net.Http.Headers.Token>::get_HasValue()
 extern "C" IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCAA629FE94E21DA542C90BBE3CA2EDBF0877BBA7_gshared (Nullable_1_t64956BEFDC3255F69C8BDFB49D91211E0D24A3CE * __this, const RuntimeMethod* method);
 // !0 System.Nullable`1<System.Net.Http.Headers.Token>::get_Value()
@@ -17395,7 +17395,7 @@ inline void Predicate_1__ctor_mC5E6AE71DD71A848A9B6A2FA48E6F2783A5AAF36 (Predica
 // !0 System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue>::Find(System.Predicate`1<!0>)
 inline NameValueHeaderValue_tD6B9C6286E270D5EDCDA199D85D786492D15CD1F * List_1_Find_mA5A5A4011446FC45BF232ED463158D3D84262334 (List_1_t4C4438F9E20C453876568717EEB3C007B6273D94 * __this, Predicate_1_t0A1A433B9B5BDAEEE656F33FA5EC6406BCA0B0C5 * p0, const RuntimeMethod* method)
 {
-	return ((  NameValueHeaderValue_tD6B9C6286E270D5EDCDA199D85D786492D15CD1F * (*) (List_1_t4C4438F9E20C453876568717EEB3C007B6273D94 *, Predicate_1_t0A1A433B9B5BDAEEE656F33FA5EC6406BCA0B0C5 *, const RuntimeMethod*))List_1_Find_mD3D8180CF4967CBDC17E86195A15B12975BA9FF7_gshared)(__this, p0, method);
+	return ((  NameValueHeaderValue_tD6B9C6286E270D5EDCDA199D85D786492D15CD1F * (*) (List_1_t4C4438F9E20C453876568717EEB3C007B6273D94 *, Predicate_1_t0A1A433B9B5BDAEEE656F33FA5EC6406BCA0B0C5 *, const RuntimeMethod*))List_1_Find_m94A7087C83ECAC7AB1F55201714D2A6D70BFF211_gshared)(__this, p0, method);
 }
 // System.String System.Net.Http.Headers.NameValueHeaderValue::get_Value()
 extern "C" IL2CPP_METHOD_ATTR String_t* NameValueHeaderValue_get_Value_m1C9A1F7F66EBE7B510A270C4C26E1C438F45EAAB (NameValueHeaderValue_tD6B9C6286E270D5EDCDA199D85D786492D15CD1F * __this, const RuntimeMethod* method);

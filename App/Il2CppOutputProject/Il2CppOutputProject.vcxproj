@@ -213,7 +213,19 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Generics_66.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_67.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_68.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_69.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Generics_7.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_70.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_71.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Generics_72.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_Generics_8.cpp">
     </ClCompile>
@@ -353,6 +365,14 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_System_8.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_0.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_Unity.TextMeshPro_3.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.AIModule_0.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.AnimationModule_0.cpp">
@@ -394,6 +414,8 @@
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.SharedInternalsModule_0.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TerrainModule_0.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TextCoreModule_0.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Bulk_UnityEngine.TextRenderingModule_0.cpp">
     </ClCompile>
@@ -448,6 +470,8 @@
     <ClCompile Include="Source\il2cppOutput\GenericMethods7.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods8.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods9.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppAttributes.cpp">
     </ClCompile>
@@ -512,6 +536,14 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers34.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers35.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers36.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers37.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers38.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers39.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppComCallableWrappers4.cpp">
     </ClCompile>
@@ -646,6 +678,10 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_62Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_63Table.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_64Table.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_65Table.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCompilerCalculateTypeValues_6Table.cpp">
     </ClCompile>
