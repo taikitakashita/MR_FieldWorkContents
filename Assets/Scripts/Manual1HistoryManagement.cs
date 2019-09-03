@@ -31,7 +31,7 @@ public class Manual1HistoryManagement : Singleton<Manual1HistoryManagement>
 
     public void Manual1HistoryPanelShow()
     {
-        StartCoroutine(ManualFunctionRun.Instance.CallManualHistoryFunctions("1"));
+        StartCoroutine(ManualFunctionRun.Instance.CallLoadManualHistoryFunctions("1"));
     }
 
     public void Manual1HistoryPanelHide()

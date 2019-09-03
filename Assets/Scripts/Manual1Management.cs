@@ -1,4 +1,5 @@
 ﻿using HoloToolkit.Unity;
+using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -25,16 +26,23 @@ public class Manual1Management : Singleton<Manual1Management>
     [SerializeField]
     private GameObject m_endButton;
 
+    [SerializeField]
+    private TextMeshProUGUI m_resultText;
+
     private int m_manualNum;
 
     private int m_manualTotalNum;
 
     List<ManualEntity> m_manualEntityList;
 
+    ManualHistoryEntity m_manualResultEntity;
+    List<ManualHistoryEntity> m_manualResultEntityList;
+
     // Start is called before the first frame update
     void Start()
     {
         Manual1PanelHide();
+        m_manualResultEntityList = new List<ManualHistoryEntity>();
     }
 
     public void Manual1PanelShow()
@@ -45,7 +53,7 @@ public class Manual1Management : Singleton<Manual1Management>
     public void Manual1PanelShowDefault()
     {
         m_manualNum = 0;
-        StartCoroutine(ManualFunctionRun.Instance.CallManualFunctions("1"));
+        StartCoroutine(ManualFunctionRun.Instance.CallLoadManualFunctions("1"));
         NextButtonShow();
         EndButtonHide();
         BackButtonHide();
@@ -98,18 +106,26 @@ public class Manual1Management : Singleton<Manual1Management>
     public void ManualNextPage()
     {
         BackButtonShow();
+        m_manualResultEntity = new ManualHistoryEntity();
+        m_manualResultEntity.ManualID = "1";
+        m_manualResultEntity.ManualStep = (m_manualNum + 1).ToString();
+        m_manualResultEntity.Data = m_resultText.text;
+        m_manualResultEntityList.Add(m_manualResultEntity);
+        Debug.Log("手順" + m_manualResultEntity.ManualStep + "の結果：" + m_manualResultEntityList[m_manualNum].Data);
 
         if (m_manualNum < (m_manualTotalNum - 1))
         {
             m_manualNum = m_manualNum + 1;
             m_manual1Label.text = string.Format("点検手順 " + (m_manualNum + 1) + "／" + m_manualTotalNum);
             m_manual1Text.text = string.Format(m_manualEntityList[m_manualNum].Data);
+            m_resultText.text = string.Format("異常無し");
         }
         else
         {
             m_manualNum = m_manualNum + 1;
             m_manual1Label.text = string.Format("点検手順 " + (m_manualTotalNum) + "／" + m_manualTotalNum);
-            m_manual1Text.text = string.Format("作業は完了しました。お疲れ様でした。");
+            m_manual1Text.text = string.Format("作業は完了しました。\nお疲れ様でした。");
+            m_resultText.text = string.Format("ー");
             NextButtonHide();
             EndButtonShow();
         }
@@ -134,7 +150,13 @@ public class Manual1Management : Singleton<Manual1Management>
 
     public void ManualCompleted()
     {
-        Manual1PanelHide();
-        MachineInformation1Management.Instance.Information1ButtonShow();
+        string manualResultJson = JsonConvert.SerializeObject(m_manualResultEntityList);
+        Debug.Log(manualResultJson);
+        StartCoroutine(ManualFunctionRun.Instance.CallSaveManualHistoryFunctions(manualResultJson));
+    }
+
+    public void WriteManualPanelText(string text)
+    {
+        m_manual1Text.text = string.Format(text);
     }
 }
